@@ -7,16 +7,28 @@ body{
     background-color: rgb(242, 242, 242);
 }
 header{
-
+    margin-bottom: 1%;
     background-color: rgb(213, 213, 255);
 
+}
+footer{
+    margin-bottom: 1%;
+    background-color: rgb(213, 213, 255);
 }
 header nav ul{
     display: flex;
     column-gap: 40px;
     list-style: none;
 }
-
+.contenedor-grid{
+    margin-top: 0%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat (2, 750px);
+    justify-items: center;
+    align-items: center;
+    
+}
 .texto-principal{
     font-weight: bold;
 }
@@ -27,15 +39,6 @@ header nav ul{
     color: rgb(204, 149, 255);
 }
 
-.contenedor-grid{
-    margin-top: 0%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat (2, 750px);
-    justify-items: center;
-    align-items: center;
-    
-}
 @media screen and (max-width: 1024px) {
     header{
         flex-direction: row;
@@ -61,17 +64,14 @@ header nav ul{
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
     header{
         flex-direction: column;
         align-items: center;
-        
-    
+        }
     }
-    header nav ul{
-        display: flex;
-        list-style: none;
-    }
+
+
 
     .contenedor-grid{
         display: grid;
@@ -87,4 +87,3 @@ header nav ul{
 
     }
     
-}
