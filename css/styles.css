@@ -1,13 +1,15 @@
 html{
     font-family: 'Poppins' , sans-serif;
 }
-
-
+footer{
+    margin-bottom: 1%;
+    background-color: rgb(213, 213, 255);
+}
 body{
     background-color: rgb(242, 242, 242);
 }
 header{
-
+    margin-bottom: 1%;
     background-color: rgb(213, 213, 255);
 
 }
