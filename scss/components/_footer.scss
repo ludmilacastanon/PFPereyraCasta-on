@@ -1,4 +1,4 @@
 footer{
     margin-bottom: 1%;
-    background-color: rgb(213, 213, 255);
+    background-color:nth($list: $colores, $n: 1 );
 }

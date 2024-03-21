@@ -1,11 +1,12 @@
 .main-galeria{
     .contenedor-grid{
+        @include flex(grid, center);
         margin-top: 0%;
-        display: grid;
+        //display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat (2, 750px);
         justify-items: center;
-        align-items: center;
+        //align-items: center;
         
     }
 }

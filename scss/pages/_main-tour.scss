@@ -1,8 +1,8 @@
 .main-tour{
     .tour-uno{
-        color: rgb(255, 173, 232);
+        color: nth($list: $colores, $n: 3 );
     }
     .tour-dos{
-        color: rgb(204, 149, 255);
+        color:nth($list: $colores, $n: 2 );
     }
 }
