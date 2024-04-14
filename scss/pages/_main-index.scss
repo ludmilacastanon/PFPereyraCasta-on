@@ -1,5 +1,6 @@
 .main-index{
     .texto-principal{
         font-weight: bold;
+        @extend %estilos;
     }
 }
